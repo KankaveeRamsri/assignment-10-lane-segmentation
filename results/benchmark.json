@@ -1,0 +1,29 @@
+{
+ "input": [
+  1,
+  3,
+  256,
+  448
+ ],
+ "torch": "2.7.1",
+ "machine": "Darwin arm64 (arm)",
+ "rss_baseline_mb": 200.546875,
+ "params": 264451,
+ "param_mb_fp32": 1.0088005065917969,
+ "weight_file_mb": 1.1201467514038086,
+ "rss_after_load_mb": 205.484375,
+ "gmacs": 0.680032256,
+ "gflops": 1.360064512,
+ "activations_total_mb": 116.238525390625,
+ "largest_activation_mb": 3.5,
+ "cpu_latency_ms": 38.20448124955874,
+ "cpu_fps": 26.174939883827108,
+ "rss_after_cpu_inference_mb": 222.5,
+ "rss_inference_overhead_mb": 21.953125,
+ "peak_rss_mb": 248.171875,
+ "mps_latency_ms": 9.95305999997072,
+ "mps_fps": 100.47161375526139,
+ "mps_allocated_mb": 2.37744140625,
+ "mps_driver_allocated_mb": 50.84375,
+ "mps_model_mb": 2.37744140625
+}

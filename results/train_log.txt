@@ -1,0 +1,63 @@
+device=mps train=700 val=100
+params: 264,451
+ep   1 | train 2.2943 | val 2.1610 | mIoU 0.2489 | lane IoU 0.4588 | 47.3s *
+ep   2 | train 1.3762 | val 1.0039 | mIoU 0.5710 | lane IoU 0.6633 | 44.8s *
+ep   3 | train 0.9968 | val 0.8424 | mIoU 0.6374 | lane IoU 0.7267 | 44.8s *
+ep   4 | train 0.8791 | val 0.8489 | mIoU 0.6196 | lane IoU 0.7081 | 45.1s
+ep   5 | train 0.8205 | val 0.7048 | mIoU 0.6705 | lane IoU 0.7517 | 50.3s *
+ep   6 | train 0.7782 | val 0.7416 | mIoU 0.6509 | lane IoU 0.7323 | 51.4s
+ep   7 | train 0.7484 | val 0.6637 | mIoU 0.6839 | lane IoU 0.7665 | 53.1s *
+ep   8 | train 0.7111 | val 0.6672 | mIoU 0.6933 | lane IoU 0.7747 | 54.3s *
+ep   9 | train 0.7083 | val 0.7159 | mIoU 0.6614 | lane IoU 0.7486 | 57.4s
+ep  10 | train 0.6880 | val 0.6006 | mIoU 0.7014 | lane IoU 0.7794 | 53.6s *
+ep  11 | train 0.6706 | val 0.6407 | mIoU 0.7117 | lane IoU 0.7881 | 62.8s *
+ep  12 | train 0.6601 | val 0.6009 | mIoU 0.7074 | lane IoU 0.7752 | 58.9s
+ep  13 | train 0.6469 | val 0.5810 | mIoU 0.7167 | lane IoU 0.7788 | 62.9s *
+ep  14 | train 0.6375 | val 0.5372 | mIoU 0.7281 | lane IoU 0.7961 | 68.6s *
+ep  15 | train 0.6256 | val 0.6902 | mIoU 0.6771 | lane IoU 0.7373 | 63.6s
+ep  16 | train 0.6169 | val 0.5911 | mIoU 0.7176 | lane IoU 0.7927 | 68.2s
+ep  17 | train 0.6193 | val 0.5636 | mIoU 0.7192 | lane IoU 0.7972 | 63.0s
+ep  18 | train 0.6132 | val 0.6199 | mIoU 0.7006 | lane IoU 0.7869 | 63.9s
+ep  19 | train 0.6003 | val 0.5323 | mIoU 0.7297 | lane IoU 0.8018 | 63.5s *
+ep  20 | train 0.5941 | val 0.6479 | mIoU 0.6883 | lane IoU 0.7648 | 65.6s
+ep  21 | train 0.5946 | val 0.6140 | mIoU 0.7051 | lane IoU 0.7687 | 66.0s
+ep  22 | train 0.5691 | val 0.6086 | mIoU 0.7110 | lane IoU 0.7932 | 65.4s
+ep  23 | train 0.5727 | val 0.5213 | mIoU 0.7350 | lane IoU 0.8067 | 63.6s *
+ep  24 | train 0.5773 | val 0.5564 | mIoU 0.7230 | lane IoU 0.8046 | 64.5s
+ep  25 | train 0.5665 | val 0.5474 | mIoU 0.7191 | lane IoU 0.7833 | 61.5s
+ep  26 | train 0.5642 | val 0.5451 | mIoU 0.7229 | lane IoU 0.8020 | 60.9s
+ep  27 | train 0.5417 | val 0.6293 | mIoU 0.7138 | lane IoU 0.7831 | 57.8s
+ep  28 | train 0.5499 | val 0.6657 | mIoU 0.6905 | lane IoU 0.7468 | 58.1s
+ep  29 | train 0.5422 | val 0.5862 | mIoU 0.7187 | lane IoU 0.7787 | 62.1s
+ep  30 | train 0.5378 | val 0.6050 | mIoU 0.7153 | lane IoU 0.7658 | 61.4s
+ep  31 | train 0.5266 | val 0.6272 | mIoU 0.7101 | lane IoU 0.7793 | 70.9s
+ep  32 | train 0.5338 | val 0.5150 | mIoU 0.7408 | lane IoU 0.8019 | 67.3s *
+ep  33 | train 0.5267 | val 0.5833 | mIoU 0.7247 | lane IoU 0.7801 | 66.4s
+ep  34 | train 0.5174 | val 0.5693 | mIoU 0.7234 | lane IoU 0.7854 | 59.9s
+ep  35 | train 0.5133 | val 0.5345 | mIoU 0.7394 | lane IoU 0.7899 | 58.9s
+ep  36 | train 0.5139 | val 0.5715 | mIoU 0.7307 | lane IoU 0.7926 | 61.6s
+ep  37 | train 0.4974 | val 0.5353 | mIoU 0.7373 | lane IoU 0.7970 | 63.6s
+ep  38 | train 0.4953 | val 0.5856 | mIoU 0.7272 | lane IoU 0.7883 | 59.9s
+ep  39 | train 0.4964 | val 0.5316 | mIoU 0.7418 | lane IoU 0.7990 | 65.8s *
+ep  40 | train 0.4824 | val 0.5253 | mIoU 0.7465 | lane IoU 0.8091 | 62.3s *
+ep  41 | train 0.4837 | val 0.5061 | mIoU 0.7461 | lane IoU 0.8053 | 63.3s
+ep  42 | train 0.4837 | val 0.5534 | mIoU 0.7411 | lane IoU 0.7934 | 64.8s
+ep  43 | train 0.4763 | val 0.5222 | mIoU 0.7465 | lane IoU 0.7955 | 60.0s
+ep  44 | train 0.4796 | val 0.5028 | mIoU 0.7574 | lane IoU 0.8084 | 63.0s *
+ep  45 | train 0.4599 | val 0.6077 | mIoU 0.7207 | lane IoU 0.7730 | 59.8s
+ep  46 | train 0.4620 | val 0.5505 | mIoU 0.7355 | lane IoU 0.7918 | 63.8s
+ep  47 | train 0.4510 | val 0.5453 | mIoU 0.7452 | lane IoU 0.7961 | 58.8s
+ep  48 | train 0.4527 | val 0.5103 | mIoU 0.7570 | lane IoU 0.8082 | 60.8s
+ep  49 | train 0.4433 | val 0.5256 | mIoU 0.7542 | lane IoU 0.8008 | 62.0s
+ep  50 | train 0.4453 | val 0.5406 | mIoU 0.7503 | lane IoU 0.7978 | 56.9s
+ep  51 | train 0.4443 | val 0.5350 | mIoU 0.7483 | lane IoU 0.7968 | 54.5s
+ep  52 | train 0.4336 | val 0.5246 | mIoU 0.7457 | lane IoU 0.8014 | 60.4s
+ep  53 | train 0.4385 | val 0.5362 | mIoU 0.7436 | lane IoU 0.7993 | 65.8s
+ep  54 | train 0.4323 | val 0.5350 | mIoU 0.7450 | lane IoU 0.8004 | 66.3s
+ep  55 | train 0.4328 | val 0.5290 | mIoU 0.7481 | lane IoU 0.8014 | 68.7s
+ep  56 | train 0.4297 | val 0.5407 | mIoU 0.7443 | lane IoU 0.7996 | 67.4s
+ep  57 | train 0.4425 | val 0.5405 | mIoU 0.7425 | lane IoU 0.7962 | 60.8s
+ep  58 | train 0.4313 | val 0.5477 | mIoU 0.7434 | lane IoU 0.7951 | 59.3s
+ep  59 | train 0.4282 | val 0.5526 | mIoU 0.7424 | lane IoU 0.7924 | 54.5s
+ep  60 | train 0.4248 | val 0.5430 | mIoU 0.7442 | lane IoU 0.7960 | 60.6s
+best val mIoU: 0.7574
